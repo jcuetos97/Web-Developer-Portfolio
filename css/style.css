@@ -1,3 +1,7 @@
+:root {
+  --dark:#1a1a1a;
+}
+
 *,
 *::after,
 *::before {
@@ -26,8 +30,8 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
-
+  font-family: system-ui, sans-serif; }
+  
 a {
   text-decoration: none;
   color: inherit; }
@@ -49,7 +53,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -79,7 +83,7 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative; }
   .heading-sec__main--lt {
-    color: #fff; }
+    color: var(--dark) }
     .heading-sec__main--lt::after {
       content: '';
       background: #fff !important; }
@@ -110,7 +114,7 @@ textarea {
     .heading-sec__sub {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
-    color: #eee; }
+    color: var(--dark)}
 
 .heading-sm {
   font-size: 2.2rem;
@@ -158,7 +162,8 @@ textarea {
 
 .text-primary {
   color: #fff;
-  font-size: 2.1rem;
+  font-weight: 300;
+  font-size: 2rem;
   text-align: center;
   width: 100%;
   line-height: 1.6; }
@@ -171,7 +176,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, #1a1a1a, #1a1a1a), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, var(--dark),var(--dark)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -309,7 +314,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(153, 153, 153, 0.2),rgba(153, 153, 153, 0.2)), url(./assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -537,7 +542,7 @@ textarea {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: 500;
     transition: color .3s; }
     .header__link:hover {
       color: #0062b9; }
