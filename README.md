@@ -4,7 +4,7 @@
 
 This is my personal webpage where you can check my most recent work. Hope you like it! Feel free to contact me.
 
-![Demo](./dist/images/SS%20DEMO.png)
+![Demo](./css/assets/jpeg/Website%20Demo%20SS.png)
 
 ## Table of Contents
 * [Description](#description)
