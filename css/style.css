@@ -53,7 +53,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 4rem;
+  font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -178,6 +178,12 @@ textarea {
   color: #fff;
   background: linear-gradient(to right, var(--dark),var(--dark)), url(../../assets/svg/common-bg.svg);
   background-position: center;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
+  position: relative;
+
+
    }
   @media only screen and (max-width: 37.5em) {
     .home-hero {
